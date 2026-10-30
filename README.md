@@ -1,6 +1,6 @@
 # LLM-Explanation
 
-Code and data for the master's thesis *Grounded LLM explanations for healthy food recommendations: a design science study of user perception and verification* 
+Code and data for the master's thesis *Grounded LLM explanations for healthy food recommendations: a design science study of user perception and verification*.
 The repository holds a recipe recommender whose explanations are written by a large language model (LLM) and then checked, claim by claim, by two other LLMs acting as judges. It also holds the Streamlit app used in the user study. The explanations contain no numbers: exact nutrition values are shown in a separate panel, so every claim in the text can be checked against a single fact.
 
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue)
@@ -60,7 +60,7 @@ Saving responses needs a Google service account. Without one, the app still runs
 
 ## Path 2: read the pipeline
 
-`LLM_explanation` contains the whole pipeline, from loading the recipes to validating the judges. GitHub displays it directly. The outputs are cleared, so it shows the code and its explanations but not the printed results.
+`LLM_explanation.ipynb` contains the whole pipeline, from loading the recipes to validating the judges. GitHub displays it directly. The outputs are cleared, so it shows the code and its explanations but not the printed results.
 
 | Section | What it does | Thesis |
 | --- | --- | --- |
@@ -123,7 +123,7 @@ LLM output varies between runs, so a re-run produces new explanations rather tha
 │   └── 4_Thank_You.py            Saves the response to Google Sheets
 ├── data/
 │   └── explanations_FROZEN.csv   The 30 explanations shown to participants
-├── LLM_explanation        The full pipeline, sections 1 to 16
+├── LLM_explanation.ipynb        The full pipeline, sections 1 to 16
 ├── docs/images/                  Figures used in this README
 ├── .streamlit/
 │   └── secrets.toml.example      Settings needed to save responses
@@ -187,10 +187,10 @@ Generative AI appears in this project in two roles, and they are kept apart here
 
 | Part | How AI was used |
 | --- | --- |
-| Pipeline notebook code (`LLM_explanation`) | Claude drafted parts of the code. I reviewed, ran and changed it. |
-| Study application (`app.py`, `pages/`) | Claude drafted parts of the code. I reviewed, tested and changed it. |
-| Notebook text cells, README, `LICENSE`, `CITATION.cff`, requirements files, secrets example | Drafted by Claude in October 2026 and reviewed by me. |
-| Study design figure (`docs/images/study_design.png`) | Drawn by Claude from the study design in the thesis. I checked the numbers against the results. |
+| Pipeline notebook code (`LLM_explanation.ipynb`) | Claude drafted parts of the code. I reviewed, ran and made changes |
+| Study application (`app.py`, `pages/`) | Claude assisted in writing the code. I reviewed, tested and made changes. |
+| Notebook text cells, README, `LICENSE`, `CITATION.cff`, requirements files, secrets example | Drafted by Claude and reviewed by me. |
+| Study design figure (`docs/images/study_design.png`) | Drawn by Claude from the study design in the thesis. Numbers checked against the results. |
 
 The research design and the decisions behind the artefact are my own and are justified in the thesis. These include the recommender rules and weights, the number-free explanation design, the claim categories, the judge rules and the survey. I checked the AI-drafted code by running it and inspecting its output, using the checks listed in [What is checked where](#what-is-checked-where).
 
