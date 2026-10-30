@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the thesis below."
-title: "Food-explainer: grounded LLM explanations for healthy food recommendations"
+title: "LLM-Explanation: grounded LLM explanations for healthy food recommendations"
 type: software
 authors:
   - family-names: "Saari"
     given-names: "Daniel"
-repository-code: "https://github.com/dansaari/Food-explainer"
+repository-code: "https://github.com/dansaari/LLM-Explanation"
 license: MIT
 date-released: "2026-10-30"
 keywords:
