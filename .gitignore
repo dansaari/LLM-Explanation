@@ -1,0 +1,51 @@
+# Credentials: never commit
+.env
+.streamlit/secrets.toml
+*.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# HUMMUS source files (download separately, see README)
+data/pp_recipes.csv
+data/pp_reviews.csv
+data/pp_members.csv
+data/graph_ingredient_mapping.csv
+data/graph_ingredient_labels.csv
+
+# Files produced by the notebook
+data/clean_recipes.csv
+data/explanations.csv
+data/explanations_VALIDATION.csv
+data/functional_test_results.csv
+data/grounding_check_results.csv
+data/grounding_verdicts.csv
+data/claims_with_judges.csv
+data/adversarial_cases.csv
+data/adversarial_judged_PARTIAL.csv
+data/adversarial_judged_PER_CASE.csv
+data/adversarial_judged_SUMMARY.csv
+data/annotation_KEY.csv
+data/annotation_KEY_tiebreak.csv
+data/annotation_workbook.xlsx
+data/annotation_workbook 1 1.xlsx
+data/development_findings.csv
+data/glimmer_tiebreak.csv
+data/xlsx
+
+# Survey responses
+data/survey_responses.csv
+data/Thesis Survey Responses.xlsx
+
+# Local working notebooks
+figures.ipynb
+Result.ipynb
+verify_ch4.ipynb
+data_exploration copy.ipynb
+
+# OS and editor files
+.DS_Store
+.vscode/
+.claude/

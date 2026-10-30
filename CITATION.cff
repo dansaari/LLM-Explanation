@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the thesis below."
+title: "Food-explainer: grounded LLM explanations for healthy food recommendations"
+type: software
+authors:
+  - family-names: "Saari"
+    given-names: "Daniel"
+repository-code: "https://github.com/dansaari/Food-explainer"
+license: MIT
+date-released: "2026-10-30"
+keywords:
+  - large language models
+  - explainable recommendation
+  - food recommendation
+  - grounding
+  - LLM-as-a-judge
+  - design science research
