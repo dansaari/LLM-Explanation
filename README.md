@@ -62,16 +62,16 @@ Saving responses needs a Google service account. Without one, the app still runs
 
 `LLM_explanation.ipynb` contains the whole pipeline, from loading the recipes to validating the judges. GitHub displays it directly. The outputs are cleared, so it shows the code and its explanations but not the printed results.
 
-| Section | What it does | Thesis |
+| Section | What it does | 
 | --- | --- | --- |
-| 1 to 2 | Load and clean the HUMMUS recipes | 3.4.1 |
-| 3 to 6 | Tag mappings, the six personas, the recommender, diversity check | 3.4.2, Appendix 1 |
-| 7 | Fact extraction and explanation generation (30 study and 72 validation explanations) | 3.4.3 |
-| 8 | Functional tests of the recommender's hard constraints | Appendix 1 |
-| 9 to 13 | Judge setup, claim-level judging, grounding verdicts, agreement between judges | 3.4.4, 3.5.2, 4.3 |
-| 14 | Adversarial cases with planted errors | 3.5.2, 4.4.4 |
-| 15 | Freezing the study set | 3.4.3 |
-| 16 | Annotation workbook, development findings, third model for disagreements | 3.5.2, 4.4 |
+| 1 to 2 | Load and clean the HUMMUS recipes |
+| 3 to 6 | Tag mappings, the six personas, the recommender, diversity check |
+| 7 | Fact extraction and explanation generation (30 study and 72 validation explanations) |
+| 8 | Functional tests of the recommender's hard constraints |
+| 9 to 13 | Judge setup, claim-level judging, grounding verdicts, agreement between judges |
+| 14 | Adversarial cases with planted errors |
+| 15 | Freezing the study set |
+| 16 | Annotation workbook, development findings, third model for disagreements |
 
 The 30 explanations participants saw are in `data/explanations_FROZEN.csv`, together with the facts each was generated from (key ingredients, dish type, goal ranking, cuisine match, optional facts) and the nutrition values shown in the app.
 
