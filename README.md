@@ -62,8 +62,8 @@ Saving responses needs a Google service account. Without one, the app still runs
 
 `LLM_explanation.ipynb` contains the whole pipeline, from loading the recipes to validating the judges. GitHub displays it directly. The outputs are cleared, so it shows the code and its explanations but not the printed results.
 
-| Section | What it does | 
-| --- | --- | --- |
+| Section | What it does |
+| --- | --- |
 | 1 to 2 | Load and clean the HUMMUS recipes |
 | 3 to 6 | Tag mappings, the six personas, the recommender, diversity check |
 | 7 | Fact extraction and explanation generation (30 study and 72 validation explanations) |
