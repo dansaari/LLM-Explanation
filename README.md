@@ -159,8 +159,8 @@ No personal information was collected in the study. Participants were matched to
 
 ## Limits
 
-- **The models were reached through a private gateway.** The model IDs in the notebook only work there, so a re-run needs your own endpoint and models (see Path 3).
-- **LLM output is not deterministic.** A re-run will not reproduce the frozen explanations word for word, even with the same models.
+- **The models were reached through a private gateway.** The model IDs in the notebook only work there, so a rerun needs your own endpoint and models (see Path 3).
+- **LLM output is not deterministic.** A rerun will not reproduce the frozen explanations word for word, even with the same models.
 - **Grounding is checked against the facts given to the generator, not against reality.** If the HUMMUS data is wrong, a grounded explanation repeats the error.
 - **Five claim categories are checked.** The up to two optional facts an explanation may add, such as "quick to prepare", are not judged.
 - **Responses are saved only to Google Sheets.** There is no local storage option.
@@ -196,11 +196,11 @@ The research design and the decisions behind the artefact are the author's own a
 
 ## Citing and licence
 
-If you use this code, please cite the thesis:
+If you use this code, kindly cite the thesis:
 
 > Saari, D. 2026. Grounded LLM explanations for healthy food recommendations: a design science study of user perception and verification. Master's thesis. Oulu University of Applied Sciences.
 
-GitHub also offers a citation from `CITATION.cff` under **Cite this repository** on the repository page.
+To cite the code itself, use **Cite this repository** on the repository page.
 
 The recipe data comes from:
 
