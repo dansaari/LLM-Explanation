@@ -1,5 +1,4 @@
-# Additional packages for data_exploration.ipynb
-# Install together with the app packages:
+# Additional packages for LLM_explanation.ipynb
 #   pip install -r requirements.txt -r requirements-notebook.txt
 numpy==2.4.4
 scikit-learn==1.9.0

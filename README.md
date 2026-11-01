@@ -187,12 +187,12 @@ Generative AI appears in this project in two roles, and they are kept apart here
 
 | Part | How AI was used |
 | --- | --- |
-| Pipeline notebook code (`LLM_explanation.ipynb`) | Claude drafted parts of the code. I reviewed, ran and made changes |
-| Study application (`app.py`, `pages/`) | Claude assisted in writing the code. I reviewed, tested and made changes. |
-| Notebook text cells, README, `LICENSE`, `CITATION.cff`, requirements files, secrets example | Drafted by Claude and reviewed by me. |
-| Study design figure (`docs/images/study_design.png`) | Drawn by Claude from the study design in the thesis. Numbers checked against the results. |
+| Pipeline notebook code (`LLM_explanation.ipynb`) | Claude drafted parts of the code. The author reviewed, ran and modified it. |
+| Study application (`app.py`, `pages/`) | Claude assisted in writing the code. The author reviewed, tested and modified it. |
+| Notebook text cells, README, `LICENSE`, `CITATION.cff`, requirements files, secrets example | Drafted by Claude and reviewed by the author. |
+| Study design figure (`docs/images/study_design.png`) | Drawn by Claude from the study design in the thesis. The author checked the numbers against the results. |
 
-The research design and the decisions behind the artefact are my own and are justified in the thesis. These include the recommender rules and weights, the number-free explanation design, the claim categories, the judge rules and the survey. I checked the AI-drafted code by running it and inspecting its output, using the checks listed in [What is checked where](#what-is-checked-where).
+The research design and the decisions behind the artefact are the author's own and are justified in the thesis. These include the recommender rules and weights, the number-free explanation design, the claim categories, the judge rules and the survey. The author checked the AI-drafted code by running it and inspecting its output, using the checks listed in [What is checked where](#what-is-checked-where). The author is responsible for the code, its correctness and the results.
 
 ## Citing and licence
 
